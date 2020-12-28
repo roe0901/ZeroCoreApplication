@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroCore.Web", "..\ZeroCore.Web\ZeroCore.Web.csproj", "{1880F89E-BAF8-49CB-90FE-CA545940CC89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroCore.Web", "..\ZeroCore.Web\ZeroCore.Web.csproj", "{1880F89E-BAF8-49CB-90FE-CA545940CC89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroCore.IRepository", "..\ZeroCore.IRepository\ZeroCore.IRepository.csproj", "{0703C1FF-8D7A-4F39-9F5E-2A83E9FCDF8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroCore.IRepository", "..\ZeroCore.IRepository\ZeroCore.IRepository.csproj", "{0703C1FF-8D7A-4F39-9F5E-2A83E9FCDF8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroCore.IServices", "..\ZeroCore.IServices\ZeroCore.IServices.csproj", "{4173ADD9-EABB-4778-A401-AF68694DE0CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroCore.IServices", "..\ZeroCore.IServices\ZeroCore.IServices.csproj", "{4173ADD9-EABB-4778-A401-AF68694DE0CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroCore.Model", "..\ZeroCore.Model\ZeroCore.Model.csproj", "{1D8790E1-5A61-4924-BED9-3DAC86B03A73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroCore.Model", "..\ZeroCore.Model\ZeroCore.Model.csproj", "{1D8790E1-5A61-4924-BED9-3DAC86B03A73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroCore.Repository", "..\ZeroCore.Repository\ZeroCore.Repository.csproj", "{15F91F42-C36A-4484-AAD3-F71CEACE68B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroCore.Repository", "..\ZeroCore.Repository\ZeroCore.Repository.csproj", "{15F91F42-C36A-4484-AAD3-F71CEACE68B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroCore.Services", "..\ZeroCore.Services\ZeroCore.Services.csproj", "{5857DC25-A08B-478E-9384-CAA237C0D722}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZeroCore.Services", "..\ZeroCore.Services\ZeroCore.Services.csproj", "{5857DC25-A08B-478E-9384-CAA237C0D722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTCenter", "JWTCenter\JWTCenter.csproj", "{2AF06A96-5B75-4A40-9DBB-55F9A7E56809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTWebApi", "..\JWTWebApi\JWTWebApi.csproj", "{DF7090D7-D338-4E57-814F-C1C834E74CC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{5857DC25-A08B-478E-9384-CAA237C0D722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5857DC25-A08B-478E-9384-CAA237C0D722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5857DC25-A08B-478E-9384-CAA237C0D722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF06A96-5B75-4A40-9DBB-55F9A7E56809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF06A96-5B75-4A40-9DBB-55F9A7E56809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF06A96-5B75-4A40-9DBB-55F9A7E56809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF06A96-5B75-4A40-9DBB-55F9A7E56809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7090D7-D338-4E57-814F-C1C834E74CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7090D7-D338-4E57-814F-C1C834E74CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7090D7-D338-4E57-814F-C1C834E74CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7090D7-D338-4E57-814F-C1C834E74CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
